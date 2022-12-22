@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(190, 239, 239);
+    
+}
+
+.claruswaypath {
+    margin: auto;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: rgb(255,127,80);
+    text-decoration: non solid rgb(255,255,255);
+    text-align: center;
+    word-spacing: 0px;
+    position: color;
+    height: 95.2px;
+    width: 1518px;
+    display: block;
+    transform: none;
+    outline: rgb(22, 37, 68) solid 1px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 16px 0px;
+       
+}
+
+.right {
+    margin: auto;
+    background-color: rgb(115, 206, 206);
+    text-decoration: none solid rgb(0, 0, 0);
+    height: 245px;
+    width: 1010.39px;
+    padding: 10px;
+    color: transparent
+    min-height: auto;
+    min-width: auto;
+    outline: rgba(0, 0, 0, 0.09) solid 1px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1 px 0px rgba(0, 0, 0, 0.2) 0px 4px 2px 0px rgba(0, 0, 0, 0.2) 0px 16px 8px 0px rgba(0, 0, 0, 0.2) 0px 32px 16px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* float: left; */
+}
+
+.imgfs {
+    height: 225px;
+    width: 350px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    display: block;
+    overflow: clip;
+    border-radius: 10px;
+    cursor: pointer;
+    color:rgba(255, 133, 10, 0.856);
+    transition: 0.5s;
+}
+
+.imgfs:hover {
+    transform: scale(1.2);
+}
+
+.paths {
+    font-family: 'EB Garamond' , serif;
+    font-size: 32px;
+    font-weight: 700px;
+    text-decoration: none solid rgb(244, 164, 96);
+    word-spacing: 0px;
+    height: 42px;
+    width: 990.391px;
+    transform: none;
+    /* color: rgb(244, 164, 96);  */
+    color:rgba(255, 133, 10, 0.856);
+    text-shadow: 2px 3px 5px rgba(171, 137, 104, 0.856)
+}
+
+.main {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: justify;
+    text-indent: 16px;
+    background-image: 90deg, rgb(2, 0 ,36);
+    width: 990.391;
+    height: 54px;
+    color: grey;
+    
+}
+
+.btn {
+    padding: 5px;
+    width: 120px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.333px;
+    font-weight: 200px;
+    background-color:rgb(255, 127, 80);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    float: right;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: rgb(255,127,80);
+    border: 1px dashed;
+    font-weight: 900px;
+}
